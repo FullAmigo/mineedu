@@ -1,0 +1,37 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "type": "object",
+    "properties": {
+        "title": {
+            "type": "string",
+            "description": "タイトル"
+        },
+        "image": {
+            "type": "string",
+            "format": "uri",
+            "description": "画像ファイルのパス (URI形式)"
+        },
+        "description": {
+            "type": "string",
+            "description": "説明"
+        },
+        "worldlink": {
+            "type": "string",
+            "format": "uri",
+            "description": "ワールドへのパス (URI形式)"
+        },
+        "tags": {
+            "type": "array",
+            "description": "タグ",
+            "items": {
+                "type": "string"
+            }
+        }
+    },
+    "required": [
+        "title",
+        "image",
+        "description",
+        "tags"
+    ]
+}
