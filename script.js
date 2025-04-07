@@ -42,11 +42,14 @@
             return [];
         }
         return data.filter(item => {
-            return Object.values(item).some(value => {
+            const searchTarget = [
+                item.title,
+                item.description,
+                ...(Array.isArray(item.tags) ? item.tags : []) // tags が配列でない場合も考慮
+            ];
+            return searchTarget.some(value => {
                 if (typeof value === 'string') {
                     return value.toLowerCase().includes(keyword);
-                } else if (Array.isArray(value)) {
-                    return value.some(tag => typeof tag === 'string' && tag.toLowerCase().includes(keyword));
                 }
                 return false;
             });
