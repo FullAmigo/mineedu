@@ -2,7 +2,7 @@
     const searchButton = document.getElementById('search-button');
     const keywordInput = document.getElementById('keyword');
     const searchResultsContainer = document.getElementById('search-results');
-    const jsonFilePath = 'worlds.json?20250407';
+    const jsonFilePath = 'worlds.json?20250413';
     let jsonData = []; // JSONデータを格納する変数
 
     // JSONデータの読み込み
@@ -24,8 +24,10 @@
 
     // 検索ボタンのイベントリスナー
     searchButton.addEventListener('click', () => {
-        const keyword = keywordInput.value.toLowerCase();
-        const results = searchData(jsonData, keyword);
+        const inputText = keywordInput.value.toLowerCase();
+        // 半角スペースと全角スペースでキーワードを分割
+        const keywords = inputText.split(/[ 　]+/).filter(keyword => keyword.length > 0);
+        const results = searchData(jsonData, keywords);
         displayResults(results, searchResultsContainer);
     });
 
@@ -36,8 +38,8 @@
         }
     });
 
-    // データの検索を行う関数
-    function searchData(data, keyword) {
+    // データの検索を行う関数（AND検索に対応）
+    function searchData(data, keywords) {
         if (!Array.isArray(data)) {
             return [];
         }
@@ -46,13 +48,12 @@
                 item.title,
                 item.description,
                 ...(Array.isArray(item.tags) ? item.tags : []) // tags が配列でない場合も考慮
-            ];
-            return searchTarget.some(value => {
-                if (typeof value === 'string') {
-                    return value.toLowerCase().includes(keyword);
-                }
-                return false;
-            });
+            ].map(value => typeof value === 'string' ? value.toLowerCase() : ''); // 検索対象を小文字に変換
+
+            // すべてのキーワードが検索対象のいずれかの項目に含まれているか確認
+            return keywords.every(keyword =>
+                searchTarget.some(value => value.includes(keyword))
+            );
         });
     }
 

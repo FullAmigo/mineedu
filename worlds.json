@@ -4,69 +4,69 @@
         "image": "images/8e43a570-4661-4257-929c-f676d374c0fc.png",
         "description": "プログラミングでオリジナルのミュージカルを作ろう！マイクラギャグを見つけてね。",
         "worldlink": "https://education.minecraft.net/world/8e43a570-4661-4257-929c-f676d374c0fc",
-        "tags": [ "Hour of Code", "プログラミング", "エージェント", "シングルプレイ" ]
+        "tags": [ "HourOfCode", "プログラミング", "エージェント", "シングルプレイ","日本語" ]
     },
     {
         "title": "ホイール・オブ・スティーブ",
         "image": "images/ace53da4-37e3-4b7a-9f08-258fd8de36a4.png",
-        "description": "映画版マインクラフト公開記念ワールド。２つのチームに分かれてミニゲームで戦おう！",
+        "description": "映画版マインクラフト公開記念ワールド。2つのチームに分かれてミニゲームで戦おう！8人までマルチプレイできます。",
         "worldlink": "https://education.minecraft.net/world/ace53da4-37e3-4b7a-9f08-258fd8de36a4",
-        "tags": [ "eスポーツ", "ミニゲーム", "シングルプレイ", "マルチプレイ", "PvP" ]
+        "tags": [ "eスポーツ", "ミニゲーム", "シングルプレイ", "マルチプレイ", "PvP","言語不問" ]
     },
     {
         "title": "グッドゲーム",
         "image": "images/47e794ed-3412-4a22-97c0-31e46e899a7c.png",
         "description": "オンラインゲームのマナーを学ぼう！",
         "worldlink": "https://education.minecraft.net/world/47e794ed-3412-4a22-97c0-31e46e899a7c",
-        "tags": [ "オンラインゲーム", "リテラシー", "シングルプレイ", "ミュート" ]
+        "tags": [ "オンラインゲーム", "リテラシー", "シングルプレイ", "日本語" ]
     },
     {
         "title": "スピードラン(ブロックビアードのゴールドレース)",
         "image": "images/a7633f27-a9a6-4bc0-bbb4-14748b05dfe7.png",
         "description": "マイクラのアスレでスピードを競おう！",
         "worldlink": "https://education.minecraft.net/world/a7633f27-a9a6-4bc0-bbb4-14748b05dfe7",
-        "tags": [ "eスポーツ", "スピードラン", "シングルプレイ", "マルチプレイ", "アスレ" ]
+        "tags": [ "eスポーツ", "スピードラン", "シングルプレイ", "マルチプレイ", "アスレ" ,"言語不問"]
     },
     {
         "title": "Hour of Code AI",
         "image": "images/f55246a2-8c63-4e7e-99f0-8b3f84877f8a.png",
         "description": "楽しくAIを学ぼう！",
         "worldlink": "https://education.minecraft.net/world/f55246a2-8c63-4e7e-99f0-8b3f84877f8a",
-        "tags": [ "Hour of Code", "AI", "プログラミング", "エージェント", "シングルプレイ" ]
+        "tags": [ "HourOfCode", "AI", "プログラミング", "エージェント", "シングルプレイ","日本語" ]
     },
     {
         "title": "Hour of Code タイムクラフト",
         "image": "images/ab2dc481-6de5-4f0d-a87d-3fe115425620.png",
         "description": "タイムトラベルでいろんな歴史の旅をしよう！",
         "worldlink": "https://education.minecraft.net/world/ab2dc481-6de5-4f0d-a87d-3fe115425620",
-        "tags": [ "Hour of Code", "歴史","プログラミング", "シングルプレイ" ]
+        "tags": [ "HourOfCode", "歴史","プログラミング", "シングルプレイ","日本語" ]
     },
     {
         "title": "蜂体験(蜂で構築)",
         "image": "images/16367989-c6d3-4e03-9bad-1bf5966fd6d6.png",
         "description": "プレイヤーが蜂になって巣の中を探検できます！",
         "worldlink": "https://education.minecraft.net/world/16367989-c6d3-4e03-9bad-1bf5966fd6d6",
-        "tags": [ "自然保護", "探検", "理科", "シングルプレイ", "マルチプレイ" ]
+        "tags": [ "自然保護", "探検", "理科", "シングルプレイ", "マルチプレイ","日本語" ]
     },
     {
         "title": "アルテミス：ロケットビルド",
         "image": "images/8d87507b-de24-49fc-be3a-a340a143692b.png",
         "description": "ロケットの仕組みを学んだりロケットを作ったりできます",
         "worldlink": "https://education.minecraft.net/world/8d87507b-de24-49fc-be3a-a340a143692b",
-        "tags": [ "理科", "物理", "シングルプレイ" ]
+        "tags": [ "理科", "物理", "シングルプレイ","日本語" ]
     },
     {
         "title": "みんなで自然保護",
         "image": "images/a427140c-7046-4e15-8092-f392a992b7b7.png",
         "description": "種をまくキャノン砲でマングローブ林を再生させよう！",
         "worldlink": "https://education.minecraft.net/world/a427140c-7046-4e15-8092-f392a992b7b7",
-        "tags": [ "理科", "自然保護", "シングルプレイ" ]
+        "tags": [ "理科", "自然保護", "シングルプレイ","日本語" ]
     },
     {
         "title": "データセンター体験(クラウドクラフト)",
         "image": "images/e38d1a93-e3f8-4198-9877-c28b464f47ea.png",
         "description": "データセンターの内部を社会見学しよう！",
         "worldlink": "https://education.minecraft.net/world/e38d1a93-e3f8-4198-9877-c28b464f47ea",
-        "tags": [ "クラウド", "データセンター", "コンピュータ", "ネットワーク", "プログラミング", "シングルプレイ" ]
+        "tags": [ "クラウド", "データセンター", "コンピュータ", "ネットワーク", "プログラミング", "シングルプレイ","日本語" ]
     }
 ]
