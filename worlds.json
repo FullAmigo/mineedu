@@ -58,7 +58,7 @@
     {
         "title": "みんなで自然保護",
         "image": "images/a427140c-7046-4e15-8092-f392a992b7b7.png",
-        "description": "種をまくキャノン砲でマングローブ林を再生させよう！",
+        "description": "種をまくキャノン砲でマングローブ林を再生させよう！だんだんとCO2濃度が薄くなっていくのが楽しいですよ。",
         "worldlink": "https://education.minecraft.net/world/a427140c-7046-4e15-8092-f392a992b7b7",
         "tags": [ "理科", "自然保護", "シングルプレイ","日本語" ]
     },
@@ -68,5 +68,26 @@
         "description": "データセンターの内部を社会見学しよう！",
         "worldlink": "https://education.minecraft.net/world/e38d1a93-e3f8-4198-9877-c28b464f47ea",
         "tags": [ "クラウド", "データセンター", "コンピュータ", "ネットワーク", "プログラミング", "シングルプレイ","日本語" ]
+    },
+    {
+        "title": "宝探し",
+        "image": "images/b36caba0-6e0c-4f20-b065-ad2f19614b7a.png",
+        "description": "日記を読みながらミッションを遂行したり、お宝をさがしたりするワールドです。お宝を見つけたときはテンション上がります。",
+        "worldlink": "https://education.minecraft.net/world/b36caba0-6e0c-4f20-b065-ad2f19614b7a",
+        "tags": [ "宝探し", "物語", "シングルプレイ","マルチプレイ","英語" ]
+    },
+    {
+        "title": "元素スカベンジャーハント",
+        "image": "images/22b79cea-6a00-4298-951c-050e9a8f3f14.png",
+        "description": "マイクラワールド内のアイテムを元素還元器にかけて元素をあつめよう！",
+        "worldlink": "https://education.minecraft.net/world/22b79cea-6a00-4298-951c-050e9a8f3f14",
+        "tags": [ "化学", "元素記号", "シングルプレイ","マルチプレイ","英語" ]
+    },
+    {
+        "title": "サイバーなお城チャレンジ",
+        "image": "images/69ae8e66-63f9-4313-bbf1-aa8c18aa4641.png",
+        "description": "お城に忍び込んでくるキツネからにわとりを守ります。種を集めたりたまごを集めたりおおいそがし！",
+        "worldlink": "https://education.minecraft.net/world/69ae8e66-63f9-4313-bbf1-aa8c18aa4641",
+        "tags": [ "脱出", "挑戦", "シングルプレイ","マルチプレイ","英語" ]
     }
 ]
