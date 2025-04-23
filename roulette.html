@@ -6,28 +6,28 @@
     <meta name="keywords" content="Minecraft Education,マインクラフト,教育版マインクラフト">
     <meta name="description" content="教育版マインクラフトのワールド情報サイトです">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css?20250423">
+    <link rel="stylesheet" href="article.css">
 </head>
 <body>
     <div id="outer">
         <header>
-            <div id="header-container">
-                <div id="head-inner">
-                    <h1>Minecraft Education ワールド検索サイト</h1>
+            <div id="head-inner">
+                <div id="header-container">
+                    <div id="logo"><a href="index.html">Minecraft Education ワールド検索サイト</a></div>
                     <p class="description">「どのワールドをやったらいいかわからない」という教育版マインクラフトのお悩みを解決する検索サイトです</p>
                 </div>
             </div>
         </header>
         <div id="content-wrapper">
             <main>
-                <div id="topmenu">
-                    <a href="roulette.html">今日の気分はこれ！おすすめワールドルーレット！</a>
-                </div>
-                <div id="search-form">
-                    <input type="text" id="keyword" name="keyword">
-                    <button id="search-button">検索</button>
-                </div>
-                <div id="search-results">
+                <div id="inner">
+                    <h1>おすすめワールドルーレット</h1>
+                    <canvas id="rouletteCanvas" width="400" height="400"></canvas>
+                    <div class="controls">
+                        <button id="spinButton">スピン！</button>
+                        <p>おすすめのワールドは・・・</p>
+                        <div id="result"></div>
+                    </div>
                 </div>
             </main>
             <aside>
@@ -48,6 +48,7 @@
         </div>
         <footer>© 2025 FullAmigo フラミーゴ</footer>
     </div>
-    <script src="script.js?20250423"></script>
+    <script src="roulette.js"></script>
+
 </body>
 </html>

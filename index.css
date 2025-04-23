@@ -21,6 +21,24 @@ header {
     padding: 25px 0;
 }
 
+#topmenu
+{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0px 0px 15px 10px;
+}
+
+#topmenu a {
+    text-decoration: none;
+    color: #214555;
+    font-weight: bold;
+}
+
+#topmenu a:hover {
+    text-decoration: underline;
+}
+
 h1 {
     font-size: 26px;
     font-weight: bold;
@@ -29,16 +47,6 @@ h1 {
     color: #f3e6d2;
 }
 
-    h1 a {
-        font-weight: bold;
-        color: #f3e6d2;
-        text-decoration: none;
-    }
-
-        h1 a:hover {
-            color: #e8f3f9;
-            text-decoration: none;
-        }
 
 .description {
     line-height: 1.2;
@@ -73,7 +81,7 @@ ul {
 }
 
 li {
-    list-style: disc;
+    list-style: none;
 }
 
 p {
@@ -199,6 +207,9 @@ blockquote {
         color: #333;
     }
 
+    #search-form {
+        padding: 20px 10px 0 10px;
+    }
     #search-results {
         padding: 20px 10px 0 10px;
     }

@@ -2,8 +2,9 @@
     const searchButton = document.getElementById('search-button');
     const keywordInput = document.getElementById('keyword');
     const searchResultsContainer = document.getElementById('search-results');
-    const jsonFilePath = 'worlds.json?20250416';
+    const jsonFilePath = 'worlds.json?20250423';
     let jsonData = []; // JSONデータを格納する変数
+
 
     // JSONデータの読み込み
     fetch(jsonFilePath)
@@ -89,6 +90,7 @@
                 event.preventDefault(); // リンクのデフォルトの動作をPrevent
                 const tag = this.dataset.tag; // data-tag属性からタグを取得
                 keywordInput.value = tag; // 検索キーワード入力欄にタグを設定
+                keywordInput.focus();
                 searchButton.click(); // 検索ボタンをクリック
             });
         });
@@ -103,4 +105,7 @@
             .replace(/"/g, "&quot;")
             .replace(/'/g, "&#039;");
     }
+
+ 
+
 });
