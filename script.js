@@ -90,7 +90,7 @@
                 event.preventDefault(); // リンクのデフォルトの動作をPrevent
                 const tag = this.dataset.tag; // data-tag属性からタグを取得
                 keywordInput.value = tag; // 検索キーワード入力欄にタグを設定
-                keywordInput.focus();
+                searchButton.focus();
                 searchButton.click(); // 検索ボタンをクリック
             });
         });
