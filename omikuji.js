@@ -52,9 +52,11 @@ function startOmikuji() {
 
     setTimeout(() => {
         omikujiImage.src = 'images/omikuji_end.png';
-        displayResults(result, resultDiv);    
         uranaicyu = false;           
-    }, 1600);
+        setTimeout(() => {
+            displayResults(result, resultDiv);    
+        }, 500);
+    }, 1400);
 }
 
 
