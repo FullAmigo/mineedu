@@ -51,10 +51,10 @@ function startOmikuji() {
     const result = jsonData[randomIndex];
 
     setTimeout(() => {
-        displayResults(result, resultDiv);    
         omikujiImage.src = 'images/omikuji_end.png';
+        displayResults(result, resultDiv);    
         uranaicyu = false;           
-    }, 2500);
+    }, 1600);
 }
 
 
