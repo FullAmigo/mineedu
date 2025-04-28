@@ -30,6 +30,7 @@ header {
 }
 
 #topmenu a {
+    display: flex;
     text-decoration: none;
     color: #214555;
     font-weight: bold;

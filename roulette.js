@@ -2,9 +2,9 @@
 const ctx = canvas.getContext('2d');
 const spinButton = document.getElementById('spinButton');
 const resultDiv = document.getElementById('result');
-const jsonFilePath = 'worlds.json?20250423';
+const jsonFilePath = 'worlds.json?20250428';
 
-let data = [];
+let jsonData = [];
 let angle = 0;
 let spinning = false;
 let spinTimeout;
@@ -17,13 +17,18 @@ const radius = Math.min(centerX, centerY) - 20;
 
 const colors = ['#ffc300', '#ff5e63', '#ff2693', '#ba00a2', '#2c00d9']; // 使用する色の配列（16進数カラーコード）
 let colorIndex = 0; // 現在の色のインデックス
+const targetTags = ['バイオーム'];
+
 
 async function loadWorlds() {
     try {
         const response = await fetch(jsonFilePath);
+        let data = [];
         data = await response.json();
-           // 各ワールドデータに色を追加
-        data.forEach(world => {
+        jsonData = searchData(data, targetTags);
+
+        // 各ワールドデータに色を追加
+        jsonData.forEach(world => {
 
             //world.color = getRandomColor();
             if (colorIndex < colors.length)
@@ -43,14 +48,31 @@ async function loadWorlds() {
     }
 }
 
+// タグに「バイオーム」が含まれていないものを抽出
+function searchData(data, keywords) {
+    if (!Array.isArray(data)) {
+        return [];
+    }
+    return data.filter(item => {
+        const searchTarget = [
+            ...(Array.isArray(item.tags) ? item.tags : []) // tags が配列でない場合も考慮
+        ].map(value => typeof value === 'string' ? value.toLowerCase() : ''); // 検索対象を小文字に変換
+
+        // すべてのキーワードが検索対象のいずれかの項目に含まれていないか確認
+        return !keywords.some(keyword =>
+            searchTarget.some(value => value.includes(keyword))
+        );
+    });
+}
+
 function drawRoulette() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    if (data.length === 0) return;
+    if (jsonData.length === 0) return;
 
-    const numSegments = data.length;
+    const numSegments = jsonData.length;
     const anglePerSegment = (2 * Math.PI) / numSegments;
 
-    data.forEach((world, index) => {
+    jsonData.forEach((world, index) => {
         const startAngle = angle + index * anglePerSegment;
         const endAngle = angle + (index + 1) * anglePerSegment;
         const segmentAngle = startAngle + anglePerSegment / 2;
@@ -107,8 +129,8 @@ function animate() {
 }
 
 function determineWinner() {
-    if (data.length === 0) return;
-    const numSegments = data.length;
+    if (jsonData.length === 0) return;
+    const numSegments = jsonData.length;
     const anglePerSegment = (2 * Math.PI) / numSegments;
     // 矢印が指す角度 (真上を基準とする場合)
     const arrowAngle = Math.PI * 1.5; // -90度
@@ -121,7 +143,7 @@ function determineWinner() {
     let winningSegmentIndex = Math.floor((arrowAngle - (angle % (2 * Math.PI)) + 2 * Math.PI) % (2 * Math.PI) / anglePerSegment) % numSegments;
 
     //resultDiv.textContent = `当たり: ${data[winningSegmentIndex].title}`;
-    displayResults(data[winningSegmentIndex], resultDiv);
+    displayResults(jsonData[winningSegmentIndex], resultDiv);
 }
 
 function displayResults(results, container) {

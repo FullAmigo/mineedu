@@ -89,5 +89,138 @@
         "description": "お城に忍び込んでくるキツネからにわとりを守ります。種を集めたりたまごを集めたりおおいそがし！",
         "worldlink": "https://education.minecraft.net/world/69ae8e66-63f9-4313-bbf1-aa8c18aa4641",
         "tags": [ "脱出", "挑戦", "シングルプレイ","マルチプレイ","英語" ]
+    },
+    {
+        "title": "きのこの島バイオーム",
+        "image": "images/cbf7da3c-c3e5-422d-86b0-0911f785cd6e.png",
+        "description": "ムーシュルームが唯一出現するめずらしいバイオーム。ここでは巨大なきのこが自然に生える可能性があり、日光がしっかい当たるとさらに成長します",
+        "worldlink": "https://education.minecraft.net/world/cbf7da3c-c3e5-422d-86b0-0911f785cd6e",
+        "tags": [ "バイオーム", "きのこ", "シングルプレイ","マルチプレイ","言語不問" ]
+    },
+    {
+        "title": "サバンナバイオーム",
+        "image": "images/1208e0e0-e26e-4cec-ae05-9be4f157a98f.png",
+        "description": "アカシアの木、樫の木がある比較的平らなバイオームです。ウマとラマの両方が出現する唯一のバイオームです",
+        "worldlink": "https://education.minecraft.net/world/1208e0e0-e26e-4cec-ae05-9be4f157a98f",
+        "tags": [ "バイオーム", "サバンナ", "シングルプレイ","マルチプレイ","言語不問" ]
+    },
+    {
+        "title": "ジャングルバイオーム",
+        "image": "images/94cf1433-b59e-48d9-a275-555835d19917.png",
+        "description": "巨大なジャングルの木が生えていて、樫の木もよく見られます。ヤマネコ、ジャングルの寺院、スイカ、カカオ豆、オウムはこのバイオームでしか見つかりません",
+        "worldlink": "https://education.minecraft.net/world/94cf1433-b59e-48d9-a275-555835d19917",
+        "tags": [ "バイオーム", "ジャングル",  "シングルプレイ","マルチプレイ","言語不問" ]
+    },
+    {
+        "title": "ソウルサンドの谷",
+        "image": "images/1ee0e3a6-ebd4-413c-b67b-7ab65d29fb49.png",
+        "description": "ネザーの砂漠のようなバイオームです",
+        "worldlink": "https://education.minecraft.net/world/1ee0e3a6-ebd4-413c-b67b-7ab65d29fb49",
+        "tags": [ "バイオーム", "砂漠", "ネザー", "シングルプレイ","マルチプレイ","言語不問" ]
+    },
+    {
+        "title": "タイガバイオーム",
+        "image": "images/d9033c3e-3b4c-4b1f-853c-bb2fe6295445.png",
+        "description": "トウヒの木におおわれたバイオーム。オオカミの群れやウサギの小さな群れに出会うことができます",
+        "worldlink": "https://education.minecraft.net/world/d9033c3e-3b4c-4b1f-853c-bb2fe6295445",
+        "tags": [ "バイオーム", "森林", "シングルプレイ","マルチプレイ","言語不問" ]
+    },
+    {
+        "title": "ネザーバイオーム",
+        "image": "images/98e9709b-f996-428d-955d-5fd606f9d4c1.png",
+        "description": "ネザーを生み出すバイオーム。ガストやゾンビピッグマン、マグマキューブ、エンダーマンなどのモブが出現します",
+        "worldlink": "https://education.minecraft.net/world/98e9709b-f996-428d-955d-5fd606f9d4c1",
+        "tags": [ "バイオーム", "ネザー", "シングルプレイ","マルチプレイ","言語不問" ]
+    },
+    {
+        "title": "ネザーの荒野",
+        "image": "images/38028897-12b2-44d6-812b-2839205c2530.png",
+        "description": "ネザーで最も一般的なバイオーム。ネザーにあるバイオームの中で一番鉱石や洞窟が多く見つかります",
+        "worldlink": "https://education.minecraft.net/world/38028897-12b2-44d6-812b-2839205c2530",
+        "tags": [ "バイオーム", "ネザー", "シングルプレイ","マルチプレイ","言語不問" ]
+    },
+    {
+        "title": "凍原バイオーム",
+        "image": "images/ae88331b-6a2a-4cb2-8cdd-2869fcb09d25.png",
+        "description": "大量の雪が積もっていて水源は凍り付いています。木はほとんどありません。ウサギとホッキョクグマ、ストレイが出現します",
+        "worldlink": "https://education.minecraft.net/world/ae88331b-6a2a-4cb2-8cdd-2869fcb09d25",
+        "tags": [ "バイオーム", "雪山", "シングルプレイ","マルチプレイ","言語不問" ]
+    },
+    {
+        "title": "暖かい海洋バイオーム",
+        "image": "images/51a25308-cad9-4042-908a-a918e4b8472e.png",
+        "description": "サンゴ礁とナマコが生成される海洋バイオームです",
+        "worldlink": "https://education.minecraft.net/world/51a25308-cad9-4042-908a-a918e4b8472e",
+        "tags": [ "バイオーム", "海洋", "シングルプレイ","マルチプレイ","言語不問" ]
+    },
+    {
+        "title": "森林バイオーム",
+        "image": "images/d9684730-40ef-483c-904f-0b2a788a8bc6.png",
+        "description": "樫や白樺の木、草、花が豊富なバイオームです。木材が豊富なので冒険の序盤にはぴったりなバイオームです",
+        "worldlink": "https://education.minecraft.net/world/d9684730-40ef-483c-904f-0b2a788a8bc6",
+        "tags": [ "バイオーム", "森林", "シングルプレイ","マルチプレイ","言語不問" ]
+    },
+    {
+        "title": "歪んだ森",
+        "image": "images/c82b5819-c4b6-43bd-9c98-d9a8eec9e204.png",
+        "description": "ネザーの森林タイプのバイオームにはネザーの世界で一番多くの花々が咲いています",
+        "worldlink": "https://education.minecraft.net/world/c82b5819-c4b6-43bd-9c98-d9a8eec9e204",
+        "tags": [ "バイオーム", "ネザー", "シングルプレイ","マルチプレイ","言語不問" ]
+    },
+    {
+        "title": "河川バイオーム",
+        "image": "images/c81947ba-956d-43b6-950a-c5af117c74cb.png",
+        "description": "本物の川のように細長いカーブを描く水ブロックで構成されるバイオーム",
+        "worldlink": "https://education.minecraft.net/world/c81947ba-956d-43b6-950a-c5af117c74cb",
+        "tags": [ "バイオーム", "森林", "シングルプレイ","マルチプレイ","言語不問" ]
+    },
+    {
+        "title": "海洋バイオーム",
+        "image": "images/96c86c80-7d4c-4c50-8601-a64b285f97f7.png",
+        "description": "海底は砂利でできていて、海藻や昆布、タラが出現します",
+        "worldlink": "https://education.minecraft.net/world/96c86c80-7d4c-4c50-8601-a64b285f97f7",
+        "tags": [ "バイオーム", "海洋", "シングルプレイ","マルチプレイ","言語不問" ]
+    },
+    {
+        "title": "湿地バイオーム",
+        "image": "images/fdbb4775-4a8d-41d2-ac75-e67f7022328b.png",
+        "description": "乾燥した地域とハスの葉が浮かぶ浅瀬が特徴のバイオーム。きのことサトウキビが豊富です。ウィッチの小屋やスライムが出現します",
+        "worldlink": "https://education.minecraft.net/world/fdbb4775-4a8d-41d2-ac75-e67f7022328b",
+        "tags": [ "バイオーム", "湿地", "シングルプレイ","マルチプレイ","言語不問" ]
+    },
+    {
+        "title": "玄武岩デルタ",
+        "image": "images/38982173-65c7-404d-8b54-300b10d0bcea.png",
+        "description": "地形が急でスパイキーな玄武岩の形成と平坦なデルタで構成されている火山バイオームです",
+        "worldlink": "https://education.minecraft.net/world/38982173-65c7-404d-8b54-300b10d0bcea",
+        "tags": [ "バイオーム", "火山", "シングルプレイ","マルチプレイ","言語不問" ]
+    },
+    {
+        "title": "真紅の森",
+        "image": "images/20df4891-7bbc-415a-9e21-ba43285e1822.png",
+        "description": "木のような形をした巨大なきのこに覆われている場所です。ネザーで居住可能なバイオームです",
+        "worldlink": "https://education.minecraft.net/world/20df4891-7bbc-415a-9e21-ba43285e1822",
+        "tags": [ "バイオーム", "ネザー", "シングルプレイ","マルチプレイ","言語不問" ]
+    },
+    {
+        "title": "砂漠バイオーム",
+        "image": "images/dee9e1d9-cfd0-455e-8854-a86c184c2035.png",
+        "description": "枯れた茂みやサボテンからなる不毛の地。砂の中には稀に化石が埋まっています。",
+        "worldlink": "https://education.minecraft.net/world/dee9e1d9-cfd0-455e-8854-a86c184c2035",
+        "tags": [ "バイオーム", "砂漠", "シングルプレイ","マルチプレイ","言語不問" ]
+    },
+    {
+        "title": "草原バイオーム",
+        "image": "images/c6e027d7-0127-4a47-8150-e368233c630c.png",
+        "description": "なだらかな丘と木、湖や水場、村が複数あります。友好的なモブが多くスポーンします",
+        "worldlink": "https://education.minecraft.net/world/c6e027d7-0127-4a47-8150-e368233c630c",
+        "tags": [ "バイオーム", "草原", "シングルプレイ","マルチプレイ","言語不問" ]
+    },
+    {
+        "title": "荒野バイオーム",
+        "image": "images/b09a550c-1aab-48ad-a389-9e2000d76c65.png",
+        "description": "テラコッタや赤砂が生成され金鉱石が豊富に採掘できます",
+        "worldlink": "https://education.minecraft.net/world/b09a550c-1aab-48ad-a389-9e2000d76c65",
+        "tags": [ "バイオーム", "メサ", "シングルプレイ","マルチプレイ","言語不問" ]
     }
 ]
