@@ -2,7 +2,7 @@
     const searchButton = document.getElementById('search-button');
     const keywordInput = document.getElementById('keyword');
     const searchResultsContainer = document.getElementById('search-results');
-    const jsonFilePath = 'worlds.json?20250428';
+    const jsonFilePath = 'worlds.json?20250819';
     let jsonData = []; // JSONデータを格納する変数
 
 

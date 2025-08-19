@@ -1,5 +1,25 @@
 [
     {
+        "title": "Cybersafe AI：さらに深く掘り進みましょう",
+        "image": "images/8002db2d-daa1-4f6b-adb2-5abea90b7e63.png",
+        "description": "AIリテラシーを子どもたちの身近な出来事から楽しく学べます",
+        "worldlink": "https://education.minecraft.net/world/8002db2d-daa1-4f6b-adb2-5abea90b7e63",
+        "tags": [ "NEW","AI", "リテラシー", "ミニゲーム", "シングルプレイ", "日本語" ]
+    },    {
+        "title": "オーシャンヒーローズ",
+        "image": "images/10e91913-717d-486e-a429-9ee5e9191de4.png",
+        "description": "海のゴミをひろったりして自然の海を再生させよう！",
+        "worldlink": "https://education.minecraft.net/world/10e91913-717d-486e-a429-9ee5e9191de4",
+        "tags": [ "NEW","自然保護", "ミッション", "ミニゲーム", "シングルプレイ", "日本語" ]
+    },
+    {
+        "title": "恐竜のいる建物",
+        "image": "images/831b3897-65df-47a3-8da7-0a7edaf7369a.png",
+        "description": "化石発掘のミニゲームや恐竜の骨格を選んでビルドすることができます。",
+        "worldlink": "https://education.minecraft.net/world/831b3897-65df-47a3-8da7-0a7edaf7369a",
+        "tags": [ "NEW","歴史", "ビルド", "ミニゲーム", "シングルプレイ", "マルチプレイ","日本語","言語不問" ]
+    },
+    {
         "title": "Hour of Code 2024 ザ・ショー",
         "image": "images/8e43a570-4661-4257-929c-f676d374c0fc.png",
         "description": "プログラミングでオリジナルのミュージカルを作ろう！マイクラギャグを見つけてね。",
@@ -53,14 +73,14 @@
         "image": "images/8d87507b-de24-49fc-be3a-a340a143692b.png",
         "description": "ロケットの仕組みを学んだりロケットを作ったりできます",
         "worldlink": "https://education.minecraft.net/world/8d87507b-de24-49fc-be3a-a340a143692b",
-        "tags": [ "理科", "物理", "シングルプレイ","日本語" ]
+        "tags": [ "理科", "物理","ビルド", "シングルプレイ","日本語" ]
     },
     {
         "title": "みんなで自然保護",
         "image": "images/a427140c-7046-4e15-8092-f392a992b7b7.png",
         "description": "種をまくキャノン砲でマングローブ林を再生させよう！だんだんとCO2濃度が薄くなっていくのが楽しいですよ。",
         "worldlink": "https://education.minecraft.net/world/a427140c-7046-4e15-8092-f392a992b7b7",
-        "tags": [ "理科", "自然保護", "シングルプレイ","日本語" ]
+        "tags": [ "理科", "自然保護","ミッション", "シングルプレイ","日本語" ]
     },
     {
         "title": "データセンター体験(クラウドクラフト)",
